@@ -1,0 +1,12 @@
+README
+-- here are the instructions to push the local commits in the global --
+
+- make account if it is not there
+- make a new empty repo there in github
+- in local system:
+  - git config -global user.name ""
+  - git config -global user.email""
+- git push -u origin main
+  - this will generate error and ask for few things:
+    - username -- ?
+    - passaword -- ? in place of password you have to enter teh PAT(token classic)
